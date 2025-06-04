@@ -10,7 +10,12 @@ import { SyntheseContentComponent } from './content/synthese-content.component';
   selector: 'pnx-synthese',
   styleUrls: ['synthese.component.scss'],
   templateUrl: 'synthese.component.html',
-  imports: [GN2CommonModule, ModuleLayoutComponent, SyntheseCarteComponent, SyntheseContentComponent],
+  imports: [
+    GN2CommonModule,
+    ModuleLayoutComponent,
+    SyntheseCarteComponent,
+    SyntheseContentComponent,
+  ],
   providers: [SyntheseFormService, TaxonAdvancedStoreService],
 })
 export class SyntheseComponent implements OnInit {
